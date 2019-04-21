@@ -15,7 +15,7 @@
 		private function setParametros($queryDeConexao, $parametros = array()){
 
 			foreach ($parametros as $key => $value) {
-				$this->setParametro($key, $value);
+				$this->setParametro($queryDeConexao, $key, $value);
 			}
 		}
 
